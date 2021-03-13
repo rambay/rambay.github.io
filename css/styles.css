@@ -1,0 +1,72 @@
+:root {
+  --colorBlue-40: #207ceb;
+  --colorBlue-60: #1258f0;
+  --colorDark: #131a24;
+  --colorWhite: #ffffff;
+  --colorText: #323232;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: var(--colorDark);
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alertPage header img {
+  width: 492px;
+}
+
+h1 {
+  color: var(--colorWhite);
+  font-size: 60px;
+  text-transform: uppercase;
+  color: var(--colorBlue-40);
+  line-height: 1;
+}
+
+h1 span {
+  font-size: 32px;
+  color: var(--colorWhite);
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+}
+
+.redesButton {
+  padding: 0.5em 2em;
+  border-radius: 6px;
+  margin-right: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--colorText);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.redes__behance {
+  color: var(--colorDark);
+  background: var(--colorBlue-60);
+}
+
+.redes__behance:hover {
+  background: #2e6ef8;
+}
+
+.redes__github {
+  background: #4117ff;
+  color: var(--colorDark);
+}
+
+.redes__github:hover {
+  background: #5934ff;
+}
