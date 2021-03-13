@@ -21,7 +21,7 @@ body {
 }
 
 .alertPage header img {
-  width: 492px;
+  width: 100%;
 }
 
 h1 {
@@ -69,4 +69,55 @@ h1 span {
 
 .redes__github:hover {
   background: #5934ff;
+}
+
+/* MEDIA QUERIES */
+
+/* ESCRITORIO */
+@media (max-width: 1023px) {
+  /*  */
+}
+
+/* IPAD */
+@media (max-width: 768px) {
+  .alertPage {
+    width: 100%;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  .container {
+    margin: 0 4em;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 40px;
+  }
+  .redesButton {
+    padding: 0.5em 1em;
+  }
+  .container {
+    margin: 0 2.5em;
+  }
+}
+
+@media (max-width: 320px) {
+  .redesButton {
+    padding: 0.5em 1em;
+  }
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 420px) and (orientation: landscape) {
+  body {
+    height: inherit;
+  }
+  .container {
+    height: inherit;
+    margin: 2.5em;
+  }
 }
